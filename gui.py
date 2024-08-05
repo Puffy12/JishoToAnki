@@ -39,47 +39,62 @@ def translate():
 def cancel():
     root.destroy()
 
-# Create the main window
+
+# Create root window
 root = ctk.CTk()
-root.title("Japanese Word Translator")
-root.geometry("800x400")  #window size
+
+ctk.set_appearance_mode("System")
+ctk.set_default_color_theme("green")
+root.title("Your App Title")
+root.geometry("800x600")  # Adjust size as needed
+root.iconbitmap("icon.ico")  # Set the icon for the window
 
 # Create a frame that holds content
 content_frame = ctk.CTkFrame(root)
-content_frame.pack(fill=ctk.BOTH, expand=True, padx=20, pady=20)
+content_frame.pack(fill=ctk.BOTH, expand=True, padx=10, pady=10)
+
+# Usage Instructions Label
+usage_text = ("This app translates lists of Japanese words from text files using the Jisho API. To use it, "
+              "ensure that the words in your file are separated by commas, as demonstrated in the `Example_Words.txt` file.")
+usage_label = ctk.CTkLabel(content_frame, text=usage_text, wraplength=750)
+usage_label.grid(row=0, column=0, padx=10, pady=10, columnspan=3)
 
 # Input file selection
 input_label = ctk.CTkLabel(content_frame, text="Input File:")
-input_label.grid(row=0, column=0, padx=10, pady=10, sticky="e")
+input_label.grid(row=1, column=0, padx=10, pady=10, sticky="e")
 input_entry = ctk.CTkEntry(content_frame, width=400)
-input_entry.grid(row=0, column=1, padx=10, pady=10)
+input_entry.grid(row=1, column=1, padx=10, pady=10)
 input_button = ctk.CTkButton(content_frame, text="Browse Words File...", command=select_input_file)
-input_button.grid(row=0, column=2, padx=10, pady=10)
+input_button.grid(row=1, column=2, padx=10, pady=10)
 
 # Output file selection
 output_label = ctk.CTkLabel(content_frame, text="Output File:")
-output_label.grid(row=1, column=0, padx=10, pady=10, sticky="e")
+output_label.grid(row=2, column=0, padx=10, pady=10, sticky="e")
 output_entry = ctk.CTkEntry(content_frame, width=400)
-output_entry.grid(row=1, column=1, padx=10, pady=10)
+output_entry.grid(row=2, column=1, padx=10, pady=10)
 output_button = ctk.CTkButton(content_frame, text="Browse Output File...", command=select_output_file)
-output_button.grid(row=1, column=2, padx=10, pady=10)
+output_button.grid(row=2, column=2, padx=10, pady=10)
 
 # Translate and Cancel buttons
 translate_button = ctk.CTkButton(content_frame, text="Translate", command=translate)
-translate_button.grid(row=2, column=1, padx=10, pady=10, sticky="e")
+translate_button.grid(row=3, column=1, padx=10, pady=10, sticky="e")
 cancel_button = ctk.CTkButton(content_frame, text="Close", command=cancel, fg_color="red", text_color="white")
-cancel_button.grid(row=2, column=2, padx=10, pady=10, sticky="w")
+cancel_button.grid(row=3, column=2, padx=10, pady=10, sticky="w")
 
 # Create progress bar
 progress_bar = ctk.CTkProgressBar(content_frame, width=400)
-progress_bar.grid(row=3, column=1, padx=10, pady=20, columnspan=2)
+progress_bar.grid(row=4, column=1, padx=10, pady=20, columnspan=2)
 progress_bar.set(0)  # Initialize progress bar to 0
 
 progress_label = ctk.CTkLabel(content_frame, text="Progress: 0%")
-progress_label.grid(row=4, column=1, padx=10, pady=5, columnspan=2)
+progress_label.grid(row=5, column=1, padx=10, pady=5, columnspan=2)
 
-# Description label
-description_label = ctk.CTkLabel(content_frame, text="The progress bar shows the completion status of the translation process.")
-description_label.grid(row=5, column=1, padx=10, pady=10, columnspan=2)
+# Description Label with Text Wrapping
+description_text = ("The app formats the translations with definitions and readings, creating a file that is ready for quick "
+                    "import into Anki. This process streamlines studying and memorizing Japanese vocabulary, making your "
+                    "language learning more efficient and organized.")
+description_label = ctk.CTkLabel(content_frame, text=description_text, wraplength=750)
+description_label.grid(row=6, column=0, padx=10, pady=10, columnspan=3)
 
+# Starts the app
 root.mainloop()
