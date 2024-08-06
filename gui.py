@@ -45,7 +45,7 @@ root = ctk.CTk()
 
 ctk.set_appearance_mode("System")
 ctk.set_default_color_theme("green")
-root.title("Your App Title")
+root.title("Mass Japanese Translator") #大量日本語翻訳
 root.geometry("800x600")  # Adjust size as needed
 root.iconbitmap("icon.ico")  # Set the icon for the window
 
