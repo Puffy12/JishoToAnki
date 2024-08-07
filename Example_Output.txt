@@ -96,4 +96,6 @@
 真一文字[まいちもんじ];straight, as the crow flies;
 急流[きゅうりゅう];swift current, rapids, Rapid;
 統一[とういつ];unity, consolidation, uniformity;
-もぎ取れる;to pluck off,twist and take off;
+
+Definition Not Found:
+もぎ取れる
