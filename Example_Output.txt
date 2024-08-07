@@ -1,14 +1,99 @@
-貧富[ひんぷ] -> wealth and poverty, rich and poor
-自己弁護[じこべんご] -> self-justification, excuse
-一喜一憂[いっきいちゆう] -> alternating between happiness and anxiety, swinging between joy and sorrow, being glad and sad by turns
-超越[ちょうえつ] -> transcendence, transcendency, Transcendence (philosophy)
-厄介[やっかい] -> trouble, burden, nuisance
-逸話[いつわ] -> anecdote, story, episode
-怠る[おこたる] -> to neglect, to be negligent in, to be neglectful of
-明朗[めいろう] -> cheerful, bright, clear
-気を回す[きをまわす] -> to read too much into things, to get wrong ideas by letting one's imagination run wild, to have a groundless suspicion
-気が引ける[きがひける] -> to feel awkward, to feel ashamed, to feel inferior
-前途[ぜんと] -> future, prospects, outlook
-助長[じょちょう] -> promotion, encouragement, fostering
-書斎[しょさい] -> study, library, den
-活字[かつじ] -> printing type, movable type, printed text
+筆記試験[ひっきしけん];written examination;
+身上[しんじょう];one's background, one's history, one's circumstances;
+疑い[うたがい];doubt, question, uncertainty;
+正す[ただす];to correct, to rectify, to reform;
+側[がわ];side (of something, or taking someone's side), part, (watch) case;
+一致[いっち];agreement, accord, correspondence;
+好ましい[このましい];nice, likeable, desirable;
+月並み[つきなみ];every month, trite, commonplace;
+容姿[ようし];(physical) appearance (of a person), one's face and figure;
+混同[こんどう];confusion, mixing, merger;
+素朴[そぼく];simple, artless, naive;
+勤勉[きんべん];diligent, hard-working, industrious;
+清廉[せいれん];honest, upright, cleanhanded;
+令息[れいそく];son;
+輩出[はいしゅつ];producing (people) in great numbers, appearing one after the other;
+優美[ゆうび];grace, refinement, elegance;
+柔弱[にゅうじゃく];weak, weak-kneed, soft;
+妥当[だとう];valid, proper, right;
+呆れ返る[あきれかえる];to be utterly amazed, to be stunned, to be disgusted;
+観音様[かんのんさま];Avalokiteshvara (Bodhisattva), Avalokitesvara, Kannon;
+埋まる[うまる];to be buried, to be covered, to be surrounded;
+大同小異[だいどうしょうい];essentially the same with only minor differences;
+田んぼ[たんぼ];paddy field, farm;
+掠める[かすめる];to steal, to rob, to snatch;
+往生[おうじょう];passing on to the next life, death, giving up a struggle;
+隙間[すきま];gap, opening, aperture;
+当てられる[あてられる];to be affected by (e.g. heat), to suffer from, to be embarrassed;
+屡々[しばしば];often, again and again, frequently;
+無造作[むぞうさ];easy, simple, ready;
+荒れる[あれる];to become stormy, to become rough (of the sea), to fall into ruin;
+伝統[でんとう];tradition, convention, Tradition;
+趣[おもむき];meaning, tenor, gist;
+質実[しつじつ];simplicity, plainness;
+墜落[ついらく];fall, crash (e.g. aircraft);
+木造[もくぞう];wooden, made of wood, wooden construction;
+寄与[きよ];contribution, service;
+民衆[みんしゅう];people, populace, masses;
+敗れる[やぶれる];to be defeated, to be beaten, to be unsuccessful;
+無頼[ぶらい];villainous, rascally, knavish;
+悪戯[いたずら];mischief, prank, trick;
+形式[けいしき];form (as opposed to substance), format, form;
+市井[しせい];the street, the town;
+作物[さくもつ];crop, crops, (agricultural) produce;
+振り回す[ふりまわす];to wield, to brandish, to flourish;
+矜持[きょうじ];pride, dignity, self-respect;
+上前[うわまえ];part of the fabric that is wrapped farthest from the skin when wearing a garment that is wrapped in front of one (such as a kimono), percentage, commission;
+敗戦[はいせん];defeat, lost battle, losing a war;
+言語道断[ごんごどうだん];outrageous, preposterous, scandalous;
+道徳[どうとく];morals, morality, Morality;
+腐敗[ふはい];decomposition, putrefaction, putrescence;
+同義[どうぎ];same meaning, synonymy;
+退廃[たいはい];(moral) decay, (social) decline, decadence;
+情義[じょうぎ];justice and humanity;
+荒廃[こうはい];ruin, destruction, devastation;
+万全[ばんぜん];perfection, flawlessness;
+滅亡[めつぼう];downfall, ruin, collapse;
+至言[しげん];apt remark, wise saying;
+網[あみ];net, netting, web;
+年老[としおい];old person;
+筆記[ひっき];(taking) notes, copying, Writing;
+断截[だんせつ];cutting, cutting off, severing;
+翌朝[よくあさ];next morning;
+憤慨[ふんがい];indignation, resentment;
+空気銃[くうきじゅう];air gun, air rifle, Air gun;
+実る[みのる];to bear fruit, to ripen, to produce (good) results;
+蜻蛉[とんぼ];dragonfly, damselfly, Odonata;
+種類[しゅるい];variety, kind, type;
+悪太郎[あくたろう];stupid brat, mischievous kid, troublemaker;
+桑畑[くわばたけ];mulberry field, mulberry plantation;
+群れる[むれる];to crowd, to flock, to swarm;
+脱する[だっする];to escape from, to get out;
+怠惰[たいだ];lazy, idle, indolent;
+尖る[とがる];to taper to a point, to become pointed, to become sharp;
+実践[じっせん];practice, putting into practice, implementation;
+労力[ろうりょく];labour, labor, effort;
+奥義[おうぎ];secret techniques (of an art or skill), inner mysteries, essence;
+意志薄弱[いしはくじゃく];weak-willed, lacking a purpose, lacking will power to be patient, purposeful, or resolute;
+切歯[せっし];incisor (esp. in humans), grinding one's teeth, bruxism;
+廉恥心[れんちしん];sense of honor, sense of honour;
+経済観念[けいざいかんねん];sense of economy;
+余念[よねん];another idea;
+老婆[ろうば];old woman;
+省線[しょうせん];railway line operated by the Ministry of Railways, city electric train operated by the Ministry of Railways;
+虚栄[きょえい];vanity, vainglory;
+述懐[じゅっかい];speaking about (one's thoughts, memories, etc.), relating (one's feelings, reminiscences, etc.), recollection;
+教訓[きょうくん];lesson, precept, teachings;
+百発百中[ひゃっぱつひゃくちゅう];always hitting the bull's-eye, infallible, Freikugeln;
+次第[しだい];depending on, as soon as, immediately after;
+精神[せいしん];mind, spirit, soul;
+眼光[がんこう];sparkle of one's eyes, insight, discernment;
+赤み[あかみ];reddish tinge, tinge of red, slight redness;
+槍[やり];spear, lance, javelin;
+巧み[たくみ];skillful, adroit, dexterous;
+第一[だいいち];first, foremost, number one;
+突く[つく];to prick, to stab, to poke;
+真一文字[まいちもんじ];straight, as the crow flies;
+急流[きゅうりゅう];swift current, rapids, Rapid;
+統一[とういつ];unity, consolidation, uniformity;
+もぎ取れる;to pluck off,twist and take off;
