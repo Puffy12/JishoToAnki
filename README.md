@@ -2,6 +2,19 @@
 
 **JishoToAnki** is a tool designed to translate lists of Japanese words from text files using the Jisho API. It formats the translations, including definitions and readings, for easy import into Anki. This application helps you efficiently study and memorize Japanese vocabulary by converting your word lists into a format optimized for flashcard use.
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Example](#example)
+- [Requirements](#requirements)
+- [Troubleshooting](#troubleshooting)
+- [Developer Instructions](#developer-instructions)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+  
 ## Features
 
 - Translate Japanese words from text files using the Jisho API.
