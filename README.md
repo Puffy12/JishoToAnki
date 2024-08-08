@@ -40,3 +40,41 @@
 ## Example
 
 Ensure that your input file (e.g., `Example_Words.txt`) has words separated by commas:
+
+
+## Requirements
+
+- Windows OS
+- Python 3.8 or later (for running the script, if needed)
+
+## Troubleshooting
+
+- **Progress Bar Issue:**
+  - If the progress bar starts half full or behaves unexpectedly, ensure the application is up-to-date. Restart the application if needed.
+
+- **Tkinter Issue:**
+  - Make sure you have `tcl` and `tk` folders in the proper locations. Check your error logs for their required locations.
+  - Move the `tcl8.6` and `tk8.6` (or the version you are using) folders to the correct location as described in [this Stack Overflow article](https://stackoverflow.com/questions/29320039/python-tkinter-throwing-tcl-error).
+
+## Developer Instructions
+
+1. **Activate the Virtual Environment:**
+   - Run `.\Scripts\activate` to activate the virtual environment.
+
+2. **Run the Application:**
+   - Execute the script with `python ./app.py`.
+
+3. **Deactivate the Virtual Environment:**
+   - Run `deactivate` to deactivate the virtual environment after you're done.
+
+Make sure to install all required dependencies listed in `requirements.txt` before running the application.
+
+## Contributing
+
+Feel free to contribute by submitting issues or pull requests on [GitHub](https://github.com/Puffy12/Japanese-Word-Dumper).
+
+## Contact
+
+For any questions or support, please contact me at my website [here](https://michaelmehrdadi.vercel.app/).
+
+---
