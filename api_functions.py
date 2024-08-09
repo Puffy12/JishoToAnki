@@ -58,7 +58,7 @@ def process_file(input_filename, output_filename, progress_callback):
                 if result:
                     japanese_word, reading, definitions = result
                     if japanese_word == reading:
-                        outfile.write(f"{reading} -> {', '.join(definitions)}\n")
+                        outfile.write(f"{reading};{', '.join(definitions)};\n")
                     else:
                         outfile.write(f"{japanese_word}[{reading}];{', '.join(definitions)};\n")
                 else:
@@ -66,8 +66,8 @@ def process_file(input_filename, output_filename, progress_callback):
                     
                     
                 words_checked += 1
-                if words_checked % 5 == 0:
-                    print(f"Checking {word}")
+                #if words_checked % 5 == 0:
+                    #print(f"Checking {word}")
                     
                 progress = words_checked / total_words
                 progress_callback(progress)
