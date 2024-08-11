@@ -50,12 +50,14 @@
 前者[ぜんしゃ];the former, the first;
 欠如[けつじょ];lack, absence, shortage;
 ベリーダンス;belly dance, Belly dance;
+猛[もう];greatly energetic, ferocious, extreme;
 植民地[しょくみんち];colony, (Japanese) settlement (in Brazil), Colony;
 斜面[しゃめん];slope, slanting surface, bevel;
 土砂崩れ[どしゃくずれ];landslide;
 付近[ふきん];neighborhood, neighbourhood, vicinity;
 予期[よき];expectation, anticipation, forecast;
 水浸し[みずびたし];submersion, inundation, being flooded;
+機械[きかい];machine, mechanism, instrument;
 宿命的[しゅくめいてき];fateful, predestined;
 災害[さいがい];calamity, disaster, misfortune;
 施す[ほどこす];to give (time, money, goods), to donate, to do;
@@ -63,6 +65,7 @@
 慌てる[あわてる];to become confused (disconcerted, disorganized, disorganised), to be flustered, to panic;
 対処[たいしょ];dealing with, coping with;
 零す[こぼす];to spill, to drop, to shed (tears);
+復旧[ふっきゅう];restoration, restitution, rehabilitation;
 過半[かはん];the greater part;
 経営[けいえい];management, administration, operation;
 郊外[こうがい];suburb, residential area on the outskirt of a city, commuter belt;
@@ -70,11 +73,13 @@
 応募者[おうぼしゃ];applicant;
 応答[おうとう];reply, answer, response;
 はきはき;briskly, smartly, promptly;
+素質[そしつ];makings (of), aptitude, talent;
 平凡[へいぼん];ordinary, common, commonplace;
 無邪気[むじゃき];innocent, simple-minded;
 願書[がんしょ];(written) application, written request, petition;
 及ぼす[およぼす];to exert (influence), to exercise, to cause (e.g. damage);
 隔たり[へだたり];distance, interval, gap;
+産物[さんぶつ];product, produce, result;
 著しい[いちじるしい];striking, remarkable, considerable;
 地元[じもと];home area, home town, local;
 有利[ゆうり];advantageous, favourable, better;

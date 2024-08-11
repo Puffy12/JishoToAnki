@@ -34,28 +34,34 @@ def get_definitions(word):
     
     return japanese_word, reading, flattened_definitions
 
-def process_file(input_filename, output_filename, progress_callback):
+def process_file(input_filename, output_filename, progress_callback, update_checking_label, clear_checking_label):
     """
     Processes the input file and writes the definitions to the output file.
-    Updates progress via a callback function.
+    Updates progress via a callback function and displays the current word being checked.
     
     Args:
         input_filename (str): The path to the input file containing Japanese words.
         output_filename (str): The path to the output file where definitions will be written.
         progress_callback (function): A callback function to update progress (takes float).
+        update_checking_label (function): A callback function to update the checking label (takes str).
+        clear_checking_label (function): A callback function to clear the checking label.
     """
     not_found_words = []
-    
+
     # First pass to count the total number of words
     with open(input_filename, 'r', encoding='utf-8') as infile:
-        total_words = sum(len(line.strip().split(',')) for line in infile)
-    
+        total_words = sum(len(line.replace('、', ',').strip().replace(' ', ',').split(',')) for line in infile)
+
     words_checked = 0
-    
+
     with open(input_filename, 'r', encoding='utf-8') as infile, open(output_filename, 'w', encoding='utf-8') as outfile:
         for line in infile:
-            words = line.strip().split(',')
+            # Replace all Japanese commas (、) with standard commas (,) and split on commas or spaces
+            words = [word.strip() for word in line.replace('、', ',').replace(' ', ',').split(',') if word.strip()]
+            
             for word in words:
+                update_checking_label(word)
+                
                 result = get_definitions(word)
                 if result:
                     japanese_word, reading, definitions = result
@@ -65,7 +71,7 @@ def process_file(input_filename, output_filename, progress_callback):
                         outfile.write(f"{japanese_word}[{reading}];{', '.join(definitions)};\n")
                 else:
                     not_found_words.append(word)
-                    
+                
                 words_checked += 1
                 progress = words_checked / total_words
                 progress_callback(progress)
@@ -74,3 +80,5 @@ def process_file(input_filename, output_filename, progress_callback):
             outfile.write("\nDefinition Not Found:\n")
             for word in not_found_words:
                 outfile.write(f"{word}\n")
+
+    clear_checking_label()
