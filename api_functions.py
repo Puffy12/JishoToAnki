@@ -24,10 +24,13 @@ def get_definitions(word):
         return None
     
     entry = data['data'][0]
-    reading = entry['japanese'][0]['reading']
+    reading = entry['japanese'][0].get('reading', None)
     japanese_word = entry['japanese'][0].get('word', reading)
     definitions = [sense['english_definitions'] for sense in entry['senses'][:3]]
     flattened_definitions = [item for sublist in definitions for item in sublist][:3]
+    
+    if not all([entry, reading, japanese_word, flattened_definitions]):
+        return None
     
     return japanese_word, reading, flattened_definitions
 
@@ -53,7 +56,6 @@ def process_file(input_filename, output_filename, progress_callback):
         for line in infile:
             words = line.strip().split(',')
             for word in words:
-            
                 result = get_definitions(word)
                 if result:
                     japanese_word, reading, definitions = result
@@ -64,11 +66,7 @@ def process_file(input_filename, output_filename, progress_callback):
                 else:
                     not_found_words.append(word)
                     
-                    
                 words_checked += 1
-                #if words_checked % 5 == 0:
-                    #print(f"Checking {word}")
-                    
                 progress = words_checked / total_words
                 progress_callback(progress)
         
