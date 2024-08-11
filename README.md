@@ -25,7 +25,7 @@
 ## Installation
 
 1. **Download the Application:**
-   - Download the [latest release](https://github.com/Puffy12/Japanese-Word-Dumper/releases/tag/v1.0.0) of JishoToAnki.
+   - Download the [latest release](https://github.com/Puffy12/Japanese-Word-Dumper/releases/tag/v1.1.0) of JishoToAnki.
 
 2. **Extract the Files:**
    - Extract the contents of the downloaded archive to a folder named `JishoToAnki`.
