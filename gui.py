@@ -1,7 +1,8 @@
+# main_gui.py
 import customtkinter as ctk
 from tkinter import filedialog, messagebox
-from api_functions import process_file
 import threading
+from api_functions import process_file
 
 def select_input_file():
     filename = filedialog.askopenfilename(title="Select input file", filetypes=[("Text files", "*.txt")])
@@ -49,9 +50,9 @@ root = ctk.CTk()
 
 ctk.set_appearance_mode("System")
 ctk.set_default_color_theme("green")
-root.title("Mass Japanese Translator")  # 大量日本語翻訳
-root.geometry("800x600")  # Adjust size as needed
-root.iconbitmap("icon.ico")  # Set the icon for the window
+root.title("Mass Japanese Translator")
+root.geometry("800x600")
+root.iconbitmap("icon.ico")
 
 # Create a frame that holds content
 content_frame = ctk.CTkFrame(root)
@@ -95,14 +96,13 @@ checking_label = ctk.CTkLabel(content_frame, text="")
 checking_label.grid(row=4, column=0, padx=10, pady=5, columnspan=3, sticky="nsew")
 
 # Create progress bar with reduced width
-progress_bar = ctk.CTkProgressBar(content_frame, width=200)  # Reduced width to half
+progress_bar = ctk.CTkProgressBar(content_frame, width=200)
 progress_bar.grid(row=5, column=0, padx=10, pady=20, columnspan=3, sticky="nsew")
-progress_bar.set(0)  # Initialize progress bar to 0
+progress_bar.set(0)
 
 # Progress Label
 progress_label = ctk.CTkLabel(content_frame, text="Progress: 0%")
 progress_label.grid(row=6, column=0, padx=10, pady=5, columnspan=3, sticky="nsew")
-
 
 # Description Label with Text Wrapping
 description_text = ("The app formats the translations with definitions and readings, creating a file that is ready for quick "
