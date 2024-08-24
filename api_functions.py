@@ -74,6 +74,6 @@ def process_file(input_filename, output_filename, progress_callback, update_chec
         if not_found_words:
             outfile.write("\nDefinition Not Found for:\n")
             for word in not_found_words:
-                outfile.write(f"{word}\n")
+                outfile.write(f"{word}[];;\n")
     
     clear_checking_label()
