@@ -3,6 +3,17 @@ import customtkinter as ctk
 from tkinter import filedialog, messagebox
 import threading
 from api_functions import process_file
+import os
+import sys
+
+def resource_path(relative_path):
+    try:
+        # PyInstaller creates a temp folder and stores the path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 def select_input_file():
     filename = filedialog.askopenfilename(title="Select input file", filetypes=[("Text files", "*.txt")])
@@ -52,7 +63,7 @@ ctk.set_appearance_mode("System")
 ctk.set_default_color_theme("green")
 root.title("Mass Japanese Translator")
 root.geometry("800x600")
-root.iconbitmap("icon.ico")
+root.iconbitmap(resource_path("icon.ico"))
 
 # Create a frame that holds content
 content_frame = ctk.CTkFrame(root)
