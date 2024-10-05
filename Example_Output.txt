@@ -1,4 +1,5 @@
-行儀[ぎょうぎ];manners, behavior, behaviour;
-回天[かいてん];changing the world, turning the tide, Kaiten;
-小競り合い[こぜりあい];skirmish, brush (with the enemy), small fight with a military enemy;
-厳密[げんみつ];strict, close, precise;
+葬る[ほうむる];to bury, to inter, to entomb;
+孕む[はらむ];to conceive, to become pregnant, to get filled with (e.g. sails filled with wind);
+神憑り[かみがかり];divine possession, eccentric behavior, fanaticism;
+敵陣[てきじん];enemy camp, enemy line, last 3 rows of the board;
+深層[しんそう];depths, deep level;
