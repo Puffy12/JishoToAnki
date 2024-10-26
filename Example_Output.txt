@@ -1,11 +1,7 @@
-巴[ともえ];tomoe, heraldic design composed of two or more interlocked comma-shaped figures, Tomoe;
-踏みとどまる[ふみとどまる];to stay on, to remain, to hold out;
-素振り[そぶり];behavior, behaviour, manner;
-特異点[とくいてん];singularity, singular point;
-改善点[かいぜんてん];points of improvement, improved areas, points needing improvement;
-錯誤[さくご];mistake, error, discrepancy;
-伸びしろ[のびしろ];room for growth, potential, promise;
-天邪鬼[あまのじゃく];perversity, perverse person, contrary person;
-小姑[こじゅうとめ];sister-in-law;
-共依存[きょういぞん];codependence, Codependency;
-腑抜ける[ふぬける];to lose one's energy, to be cowardly;
+当て馬[あてうま];stallion brought close to a mare to test her readiness to mate, stalking horse, spoiler;
+金言[きんげん];wise saying, maxim;
+漠然[ばくぜん];vague, obscure, indistinct;
+大気質指標[たいきしつしひょう];air quality index, AQI;
+資本主義[しほんしゅぎ];capitalism, Capitalism;
+飢餓[きが];starvation, famine, hunger;
+待ち焦がれる[まちこがれる];to be impatient for, to wait (anxiously) for, to eagerly look forward to;
