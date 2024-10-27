@@ -1,7 +1,4 @@
-当て馬[あてうま];stallion brought close to a mare to test her readiness to mate, stalking horse, spoiler;
-金言[きんげん];wise saying, maxim;
-漠然[ばくぜん];vague, obscure, indistinct;
-大気質指標[たいきしつしひょう];air quality index, AQI;
-資本主義[しほんしゅぎ];capitalism, Capitalism;
-飢餓[きが];starvation, famine, hunger;
-待ち焦がれる[まちこがれる];to be impatient for, to wait (anxiously) for, to eagerly look forward to;
+楔[くさび];wedge, chock, linchpin;
+おびき寄せる[おびきよせる];to lure (someone) toward one, to lure (into), to entice;
+片隅[かたすみ];corner, nook, Katasumi;
+先天的[せんてんてき];inborn, innate, inherent;
